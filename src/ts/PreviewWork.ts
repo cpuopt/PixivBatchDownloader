@@ -148,7 +148,7 @@ class PreviewWork {
       this.workEL = el
       if (!cacheWorkData.has(id)) {
         // 如果在缓存中没有找到这个作品的数据，则发起请求
-        this.fetchWorkData()
+        // this.fetchWorkData()
       } else {
         this.workData = cacheWorkData.get(id)!
       }
